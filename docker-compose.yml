@@ -1,0 +1,15 @@
+version: '2'
+services:
+  mailcatcher:
+    build: ./mailcatcher
+    image: jasonraimondi/mailcatcher:latest
+  yarn:
+    build: ./yarn
+    image: jasonraimondi/yarn:latest
+  percona:
+    build: ./percona
+    image: jasonraimondi/percona:latest
+  debian:
+    build: ./debian
+    image: jasonraimondi/debian:jessie
+    
