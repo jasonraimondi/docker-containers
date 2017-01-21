@@ -11,5 +11,5 @@ services:
     image: jasonraimondi/percona:latest
   debian:
     build: ./debian
-    image: jasonraimondi/debian:jessie
+    image: jasonraimondi/debian:latest
     
